@@ -1,0 +1,37 @@
+/**
+ * @file   buffer.h
+ * @author Aklzzz(csdn)
+ * @date   2024/03/06 11:33:12
+ * @note   
+ *  作为服务端的缓冲区使用
+*/
+
+#ifndef BUFFER_H
+#define BUFFER_H
+
+#include <string>
+
+class Buffer {
+public:
+  Buffer();
+
+  ~Buffer();
+
+public:
+  /// @brief 把数据追加到buf_中
+  void append(const char* data, size_t size);
+
+  /// @brief 返回buf_的大小
+  size_t size() const;
+
+  /// @brief 返回buf_的首地址
+  const char* data() const;
+
+  /// @brief 清空buf_
+  void clear();
+
+private:
+  std::string buf_;
+};
+
+#endif // BUFFER_H
