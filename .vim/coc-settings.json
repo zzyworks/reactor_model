@@ -1,0 +1,14 @@
+{
+	"clangd.arguments": [
+		"--j=3",
+		"--background-index",
+		"--header-insertion=never",
+		"--clang-tidy",
+		"--pretty",
+		"--function-arg-placeholders=false",
+		"--enable-config",
+		"--pch-storage=memory",
+		"--query-driver=/usr/bin/g++", // 编译器检查路径
+		"--compile-commands-dir=/home/zzy0/vim_workspace/reactor_model/24_1/build", // 自定义静态头文件路径
+  ],
+}
