@@ -8,7 +8,7 @@
 		"--function-arg-placeholders=false",
 		"--enable-config",
 		"--pch-storage=memory",
-		"--query-driver=/usr/bin/gcc",
-		"--compile-commands-dir=/home/zzy0/vim_workspace/thread_poll_c/build",
+		"--query-driver=/usr/bin/g++",
+		"--compile-commands-dir=/home/zzy0/vim_workspace/reactor_model/25/build",
 	],
 }
