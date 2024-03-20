@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/acceptor.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/acceptor.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/acceptor.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/buffer.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/buffer.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/buffer.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/channel.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/channel.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/channel.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/connection.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/connection.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/connection.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/echo_server.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/echo_server.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/echo_server.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/event_loop.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/event_loop.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/event_loop.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/inet_address.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/inet_address.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/inet_address.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/my_epoll.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/my_epoll.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/my_epoll.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/my_socket.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/my_socket.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/my_socket.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/tcp_server.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/tcp_server.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/tcp_server.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/network",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/network.dir/thread_pool.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/network/thread_pool.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/network/thread_pool.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/tests",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/test_thread_pool.dir/test_thread_pool.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/tests/test_thread_pool.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/tests/test_thread_pool.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/client",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/client.dir/client.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/client/client.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/client/client.cpp"
+},
+{
+  "directory": "/home/zzy0/vim_workspace/reactor_model/25/build/server",
+  "command": "/usr/bin/c++  -I/home/zzy0/vim_workspace/reactor_model/25/include -std=gnu++11 -o CMakeFiles/server.dir/server.cpp.o -c /home/zzy0/vim_workspace/reactor_model/25/server/server.cpp",
+  "file": "/home/zzy0/vim_workspace/reactor_model/25/server/server.cpp"
+}
+]
