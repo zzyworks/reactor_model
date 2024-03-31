@@ -14,9 +14,8 @@ set(LIB_NETWORK network)
 
 set(EXE_SERVER server)
 set(EXE_CLIENT client)
-set(EXE_TEST1 test_thread_pool)
 
 add_subdirectory(network)
-# add_subdirectory(tests)
+add_subdirectory(tests)
 add_subdirectory(client)
 add_subdirectory(server)

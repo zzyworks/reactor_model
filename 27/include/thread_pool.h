@@ -22,6 +22,7 @@
 
 constexpr std::size_t THREAD_IO = 0;
 constexpr std::size_t THREAD_WORK = 1;
+constexpr std::size_t THREAD_TEST = 10000;
 
 class ThreadPool {
 public:

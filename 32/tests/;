@@ -1,0 +1,32 @@
+// 写操作可以多次写入，而读操作只能读一次，多读则阻塞
+
+#include <stdint.h>
+#include <sys/eventfd.h>
+#include <unistd.h>
+#include <cstdio>
+
+void test0() {
+  int efd = eventfd(0, 0);
+  uint64_t buf = 3;
+  ssize_t ret = 0;
+  ret = write(efd, &buf, sizeof(uint64_t));
+  ret = read(efd, &buf, sizeof(uint64_t));
+  printf("ret = %ld, buf = %ld\n", ret, buf);
+  close(efd);
+}
+
+void test0() {
+  int efd = eventfd(0, 0);
+  uint64_t buf = 3;
+  ssize_t ret = 0;
+  ret = write(efd, &buf, sizeof(uint64_t));
+  ret = read(efd, &buf, sizeof(uint64_t));
+  printf("ret = %ld, buf = %ld\n", ret, buf);
+  close(efd);
+}
+
+int
+main() {
+  test0();
+  return 0;
+}

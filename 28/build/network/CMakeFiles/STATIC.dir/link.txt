@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libSTATIC.a CMakeFiles/STATIC.dir/acceptor.cpp.o CMakeFiles/STATIC.dir/buffer.cpp.o CMakeFiles/STATIC.dir/channel.cpp.o CMakeFiles/STATIC.dir/connection.cpp.o CMakeFiles/STATIC.dir/echo_server.cpp.o CMakeFiles/STATIC.dir/event_loop.cpp.o CMakeFiles/STATIC.dir/inet_address.cpp.o CMakeFiles/STATIC.dir/my_epoll.cpp.o CMakeFiles/STATIC.dir/my_socket.cpp.o CMakeFiles/STATIC.dir/tcp_server.cpp.o CMakeFiles/STATIC.dir/thread_pool.cpp.o
+/usr/bin/ranlib ../../lib/libSTATIC.a
